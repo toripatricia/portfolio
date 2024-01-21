@@ -1,0 +1,240 @@
+/* html {
+  height: 100%;
+} */
+
+body {
+  height: 100%;
+  background-image: url(/assets/bg2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#navbar {
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+}
+
+.nav-item {
+  font-size: 40px;
+}
+
+#intro h1 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  font-family: "WindSong", cursive;
+  font-size: 100px !important;
+}
+
+#role {
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+}
+
+#main-img {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  width: 650px;
+  padding-right: 200px;
+}
+
+#about-me h1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-left: 300px;
+  font-family: "WindSong", cursive;
+  font-size: 100px;
+}
+
+#about-body {
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+  justify-content: flex-start;
+  padding-left: 300px;
+  width: 1000px;
+}
+
+#about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#projects h1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-right: 600px;
+  font-family: "WindSong", cursive;
+  font-size: 100px;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-left: 300px;
+}
+
+#contact h1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-bottom: 25px;
+  font-family: "WindSong", cursive;
+  font-size: 100px;
+}
+
+#email-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+}
+
+.email-address {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+}
+
+.email-icon {
+  padding-right: 10px;
+}
+
+#phone-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+}
+
+.phone-number {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+}
+
+.phone-icon {
+  padding-right: 10px;
+}
+
+#linkedin-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+}
+
+.linkedin-url {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  color: black;
+}
+
+.linkedin-icon {
+  padding-right: 10px;
+}
+
+#github-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+}
+
+.github-url {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  color:rgb(0, 0, 0)
+}
+
+.github-icon {
+  padding-right: 10px;
+}
+
+.card {
+  margin: 20px;
+  border-width: 10px;
+  box-shadow: 10px 10px 5px rgb(81, 85, 87);
+}
+
+#exampleInputEmail1 {
+  width: 500px;
+}
+
+#exampleInputName1 {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+#exampleInputMessage1 {
+  height: 150px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+#emailHelp {
+  margin-bottom: 10px;
+}
+
+.form-check-label {
+  margin-bottom: 10px;
+}
+
+#submit-msg {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  font-family: "WindSong", cursive;
+  font-size: 500px;
+}
+
+#goback-btn {
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+#submit-btn {
+  margin-bottom: 200px;
+  font-family: "EB Garamond", serif;
+  background-color: darkslategray;
+  border-color: darkslategray;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.project-button {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  border-radius: 15%;
+  background-color: rgb(242, 230, 215);
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+.card-text {
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+}
